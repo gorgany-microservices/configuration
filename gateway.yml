@@ -1,0 +1,5 @@
+zuul:
+  ignoreServices: "*"
+  routes:
+    catalogue: /catalogue/**
+    cart: /cart/**
