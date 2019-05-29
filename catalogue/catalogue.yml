@@ -1,3 +1,15 @@
+server:
+  port: 80
 spring:
-    datasource:
-        url: 'jdbc:postgresql://database:5432/eagle_eye_local'
+  datasource:
+    username: monty
+    password: deadl1ne
+    url: jdbc:mysql://db:3306/catalogue?serverTimezone=UTC
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+        show_sql: true
+        format_sql: true
