@@ -2,9 +2,9 @@ server:
   port: 80
 spring:
   datasource:
-    username: catalogue
+    username: cart
     password: deadl1ne
-    url: jdbc:mysql://catalogue-db:3306/catalogue?serverTimezone=UTC
+    url: jdbc:mysql://cart-db:3306/cart?serverTimezone=UTC
   jpa:
     hibernate:
       ddl-auto: update
